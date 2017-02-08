@@ -1,9 +1,14 @@
-function todoList(){
+$(document).ready(function(){
 
-	var item = document.getElementById("todoInput").value;
+	$('#add').click(function(){
 
-	var newItem = document.createElement("li");
+		var tache = $("#todoList").val()
+		console.log(tache);
+		$("#todoList2").append($("<li>"+tache+"</li>"));
 
-	newItem.innerHTML = "<input type='checkbox' id='cbox2' value='checkbox1' name='test'><span>" + item.toString() + "</span><label for='cbox2'>"
+	});
 
-	document
+	$('#remove').click(function(){
+		$("#todoList2").parent().remove();  
+	});
+});

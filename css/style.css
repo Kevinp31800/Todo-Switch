@@ -1,8 +1,7 @@
 body{
 
 	text-align: center;
-	background-image: url(hqdefault.jpg);
-	background: no-repeat;
+
 	background-color: #84aae8;
 
 }
@@ -11,4 +10,8 @@ h1{
 }
 #todoList{
 	width: 400px;
+}
+
+#todoList2{
+	list-style: none;
 }
