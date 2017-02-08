@@ -1,6 +1,14 @@
 body{
 
 	text-align: center;
+	background-image: url(hqdefault.jpg);
+	background: no-repeat;
+	background-color: #84aae8;
 
 }
-
+h1{
+	font-family: Open, sans-serif;
+}
+#todoList{
+	width: 400px;
+}
