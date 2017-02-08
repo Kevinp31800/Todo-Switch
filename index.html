@@ -1,12 +1,19 @@
 <!DOCTYPE html>
 <html lang="fr">
-	<head>
-		<meta charset="UTF-8">
-		<title>Switch</title>
-		<link rel="stylesheet" href="css/style.css">
-	</head>
-	<body>
-
-		<script src="js/app.js"></script>
-	</body>
+<head>
+	<meta charset="UTF-8">
+	<title>Switch</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<h1>TO DO LIST</h1>
+	<form id="todoForm" action="#" onsubmit="todoList()">
+		<input id="todoList">
+		<button type="button" onclick="todoList()">Ajouter Tache!</button>
+		<ul id="todoList">
+		</ul>
+		<button type="button" onclick="removeFinished()">Supprimer Tache!</button>
+	</form>
+	<script src="js/app.js"></script>
+</body>
 </html>
